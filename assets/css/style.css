@@ -94,7 +94,7 @@ h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 70px 0;
   /* countdown */
 }
 
@@ -107,7 +107,7 @@ h6 {
 }
 
 #header h2 {
-  color: #eee;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -233,7 +233,7 @@ h6 {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color: #fff;
   animation: animate-loading-notify 1s linear infinite;
 }
 
@@ -247,11 +247,11 @@ h6 {
   }
 }
 
-#header .social-links {
+.social-links {
   margin-top: 40px;
 }
 
-#header .social-links a {
+.social-links a {
   font-size: 16px;
   color: #fff;
   margin: 0 3px;
@@ -265,11 +265,11 @@ h6 {
   justify-content: center;
 }
 
-#header .social-links a i {
+.social-links a i {
   line-height: 0;
 }
 
-#header .social-links a:hover {
+.social-links a:hover {
   background: #24b7a4;
   border-color: #24b7a4;
 }
@@ -518,7 +518,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -724,7 +724,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color: #fff;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -793,8 +793,8 @@ section {
 }
 
 .funky-button {
-  background-color: #1877f2;
-  border-color: #1877f2;
+  background-color: transparent;
+  border: 2px solid #ffffff;
   color: #ffffff;
   font-weight: bold;
   font-size: 1.2rem;
@@ -807,8 +807,9 @@ section {
 }
 
 .funky-button:hover {
-  background-color: #ff80b3;
-  border-color: #ff80b3;
+  background-color: #ffffff;
+  color: #1877f2;
+  border: 2px solid #1877f2;
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
@@ -822,3 +823,18 @@ section {
   object-fit: cover;
   z-index: -1;
 }
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-list-item {
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  padding-left: 20px;
+}
+
